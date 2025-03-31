@@ -1,0 +1,17 @@
+{
+  "name": "message-processing-lib",
+  "version": "1.0.0",
+  "description": "A TypeScript library for processing messages with Elixir and Rust.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "types": "dist/index.d.ts"
+}
